@@ -234,18 +234,24 @@ color: var(--Dark-moderate-cyan-footer);
    
 }
 
+.item-6{
+    display: flex;
+}
+.footer-logo{
+    padding-left: 8rem;
+    padding-top: 4rem;
+   
+   }
 
+.lis{
+    
+gap: 1rem;
+}
 
-
-
-
-
-
-
-
-
-
-
+.item-8{
+    display: flex;
+    flex-direction: column;
+}
 
 
 @media only screen and (max-width: 375px) {
@@ -258,6 +264,32 @@ color: var(--Dark-moderate-cyan-footer);
         background-size: cover;
 
 
+    }
+    .item-2{
+        font-size: 1.8rem;
+      text-align: center;
+      padding-top: 8rem;
+    }
+
+    .icon-1{
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+        
+    }
+
+
+    .test-list {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .item-6{
+        display: flex;
+        flex-direction: column;
+
+        
+       
     }
 
     .item-4 {
