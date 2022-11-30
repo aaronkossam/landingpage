@@ -189,7 +189,7 @@ h4 {
     font-size: 1.1rem;
 }
 
-.test-emily-1{
+.test-emily-1 {
 
     text-align: center;
     font-weight: 500;
@@ -198,64 +198,70 @@ h4 {
     margin-top: rem;
 }
 
-footer{
+footer {
     background-color: var(--Dark-desaturated-cyan-graphic-design-text);
     margin-top: -0.2rem;
 }
 
-.footer-logo{
- padding-left: 45rem;
- padding-top: 4rem;
+.footer-logo {
+    padding-left: 45rem;
+    padding-top: 4rem;
 
 }
 
-.lis{
+.lis {
     display: flex;
     gap: 3rem;
     justify-content: center;
     margin-top: 2rem;
     font-size: 1.2rem;
-color: var(--Dark-moderate-cyan-footer);
+    color: var(--Dark-moderate-cyan-footer);
 }
 
-.icons{
+.icons {
     display: flex;
     justify-content: center;
     gap: 2rem;
-      margin-top: 6rem;
-      padding-bottom: 6rem;
+    margin-top: 6rem;
+    padding-bottom: 6rem;
 }
 
-.icon-1{
+.icon-1 {
     display: flex;
     justify-content: center;
-  padding-top: 6rem;
+    padding-top: 6rem;
 
-   
+
 }
 
-.item-6{
+.item-6 {
     display: flex;
+
 }
-.footer-logo{
-    padding-left: 8rem;
+
+.footer-logo {
+
     padding-top: 4rem;
-   
-   }
 
-.lis{
-    
-gap: 1rem;
 }
 
-.item-8{
+.lis {
+
+    gap: 1rem;
+}
+
+.item-8 {
     display: flex;
-    flex-direction: column;
+
 }
+
+.item-10 {
+    display: flex;
+}
+
 
 
 @media only screen and (max-width: 375px) {
-
 
     .item {
 
@@ -265,31 +271,41 @@ gap: 1rem;
 
 
     }
-    .item-2{
-        font-size: 1.8rem;
-      text-align: center;
-      padding-top: 5rem;
+
+    .footer-logo {
+        padding-left: 8rem;
+        padding-top: 4rem;
+
     }
 
-    .icon-1{
+    .item-2 {
+        font-size: 1.8rem;
+        text-align: center;
+        padding-top: 5rem;
+    }
+
+    .icon-1 {
         padding-left: 1.5rem;
         padding-top: 1rem;
-        
+
     }
 
 
     .test-list {
         display: flex;
         flex-direction: column;
-       
+
     }
 
-    .item-6{
-        display: flex;
-        flex-direction: column;
+    .item-6 {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        width: 100;
+        height: 100;
 
-        
-       
+
+
+
     }
 
     .item-4 {
@@ -315,5 +331,16 @@ gap: 1rem;
         float: left;
         display: block;
     }
+
+    .item-8 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-10 {
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }
