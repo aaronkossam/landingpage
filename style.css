@@ -377,7 +377,7 @@ h4{
 
 .card-1{
     background-image:var(./images/mobile/image-photography.jpg);
-    min-width:120vw;
+    min-width:80vw;
     margin-top:0.01rem;
 }
 .ben-text{
@@ -488,8 +488,9 @@ h4{
 
 .card-1{
     background-image:var(./images/mobile/image-photography.jpg);
-    min-width:120vw;
+    min-width:100vw;
     margin-top:0.01rem;
+    min-height:20vh;
 }
 .ben-text{
     text-align:center;
@@ -498,7 +499,7 @@ h4{
 }
 .ben-text-1{
     text-align:center;
-    padding-right:4em;
+    padding-left:2.2em;
 
 }
 
